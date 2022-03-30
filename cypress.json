@@ -1,0 +1,19 @@
+{
+    "baseUrl":"https://www.google.com",
+    "testFiles": "**/*.{feature,features}",
+    "projectId": "2424",
+    "chromeWebSecurity": false,
+    "env": 
+    {
+    "URL": "https://reqres.in/"
+    },
+    "reporter": "cypress-mochawesome-reporter",
+   "reporterOptions": {
+    "reportDir": "cypress/reports",
+    "charts": true,
+    "reportPageTitle": "Test Automation Report",
+    "embeddedScreenshots": true,
+    "inlineAssets": true
+  },
+  "video": false
+  }
